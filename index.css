@@ -1,0 +1,122 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 10rem;
+}
+
+.nav-row {
+  background-color: #9933cc;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+}
+
+.nav-row__text {
+  color: white;
+  font-size: 2rem;
+  font-family: "Lucida Sans", sans-serif;
+  font-weight: bold;
+  padding: 0 0 0 1rem;
+}
+
+.content-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem 0 0 0;
+  height: 20rem;
+}
+
+.content-row__left-sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+}
+
+.content-row__right-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 20%;
+  background-color: #33b5e5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.content-row__main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+}
+
+.content-row__main-content__title {
+  font-family: "Lucida Sans", sans-serif;
+  padding: 1rem 0 0 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.content-row__main-content__text {
+  font-family: "Lucida Sans", sans-serif;
+  padding: 1rem 0 0 1rem;
+  font-size: 1rem;
+}
+
+.content-row__left-sidebar__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #33b5e5;
+  color: white;
+  margin: 0 0 1rem 0;
+  padding: 0 0 0 0.5rem;
+  font-family: "Lucida Sans", sans-serif;
+  height: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.content-row__right-sidebar__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-row__right-sidebar__item__title {
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.content-row__right-sidebar__item__text {
+  font-size: 1rem;
+  font-family: "Lucida Sans", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0099cc;
+  height: 4rem;
+  margin: 1rem 0 0 0;
+}
+
+.footer-row__text {
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 1rem;
+  color: white;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
